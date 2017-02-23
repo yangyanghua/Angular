@@ -1,0 +1,106 @@
+/*重置样式*/
+body, p, input, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, form { margin: 0; padding: 0; list-style: none; vertical-align: middle; font-weight:normal; }
+img { border: 0;border: none; }
+body { color: #000; -webkit-user-select: none; -webkit-text-size-adjust: none; font:normal 16px/200% "微软雅黑", helvetica, arial; text-align:left;   }
+header, section, footer, img { display: block; margin: 0; padding: 0 }
+a{text-decoration:none;color:#000;}
+body{
+    width: 100vw;
+    height: 92vh;
+    overflow-y:auto ;
+    overflow-x: hidden;
+}
+/*头部样式*/
+.header{
+    background:#8e488e ;
+    height: 7vh;
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+    line-height: 7vh; 
+    padding: 0;
+    margin: 0;
+      span{
+          margin-left: -2vw;
+      }
+       
+       a{
+           color: white;
+           font-size: 3vh;           
+           text-decoration: none;
+       }
+    .right{
+        float: right;
+        margin-right: 2vw;
+    }
+    .left{
+        float: left;
+        margin-left: 2vw;
+    }
+}
+.view{
+    width: 100vw;
+    width: 100%;
+    margin-bottom: 8vh;
+    overflow-x: hidden;   
+}
+
+/*底部导航样式*/
+.bar-footer{
+    background: white;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    font-size: 1.5vh;
+    line-height: 8vh;
+    bottom: 0;
+    .main_nav{
+        height: 8vh;
+        width: 100vw;
+        display: flex;
+         li{
+             flex: 1; 
+         }
+         a{
+             position: relative;
+             text-decoration: none;
+             color: gray;
+             display: block;
+             width: 100%;
+             height: 8vh;
+             line-height: 10vh;          
+             text-align: center;
+                i{
+                    position: absolute;
+                    top: 20%;
+                    left: 50%;
+                    margin-left: -1vh;
+                    font-size: 2vh;
+                }      
+         }
+         a.active{
+             color:#8e488e ;
+             
+         }
+    }
+}
+.comeback{
+
+    background:#8e488e;
+    border-radius:50%;
+    position: fixed;
+    z-index: 10;
+    right: 3vw;
+    bottom: 10vh;
+     i{
+        display: block;
+        width: 13vw;
+        height: 12vw;
+        margin-left: -1vw;
+        line-height: 12vw;
+        text-align: center;         
+        color: white;
+        font-size: 8vw;        
+     }
+}
+   

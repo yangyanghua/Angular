@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myMall">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>OYA商城</title>
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="lib/swiper/dist/css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+	</head>
+	<body>
+	<!--视图 -->
+	<div class="view" ng-view  >
+		  
+	</div>
+	<!--腿部-->
+	<footer class="bar-footer">
+	<ul class="main_nav">
+	  <li ><a ng-class="{active:page.current=='home'}" href="#home"><i class="glyphicon glyphicon-home"></i>首页</a></li>
+	  <li ><a ng-class="{active:page.current=='jifen'}" href="#jifen"><i class="glyphicon glyphicon-stats"></i>积分页</a></li>
+	  <li ><a ng-class="{active:page.current=='list'}" href="#list"><i class="glyphicon glyphicon-list"></i>分类</a></li>
+	  <li ><a ng-class="{active:page.current=='cat'}" href="#cat"><i class="glyphicon glyphicon-shopping-cart"></i>购物车</a></li>
+	  <li ><a ng-class="{active:page.current=='user'}" href="#user"><i class="glyphicon glyphicon-user"></i>个人中心</a></li>
+	</ul>
+	</footer>
+		<!--回到顶部-->
+		<div class="comeback" ng-click="comback()" ><i class="glyphicon glyphicon-arrow-up" id="iconback"></i></div>	
+	</body>
+	<script src="lib/jquery-2.1.1.js"></script>
+	<script src="lib/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular-route/angular-route.js"></script>
+	<script src="lib/swiper.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controller.js"></script>
+</html>

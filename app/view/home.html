@@ -1,0 +1,35 @@
+<!--头部-->	
+<header class="header">
+	<span class="title" style="margin-left: 8vw;" >OYA商城</span>
+	<a class="right" href="#"><i class="glyphicon glyphicon-search"></i></a>
+</header>
+	<!--轮播图   -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" ng-repeat="item in datalist" ><a href="#"><img src="{{item.imgurl}}"/></a></div>
+  </div>
+   <div class="swiper-pagination"></div>
+</div>
+<div class="jinxuan">
+<a href="#"><img src="img/41.jpg"/></a>	
+</div>
+
+<div class="img_nav">
+<div class="main_img">
+	<a href="#"><img src="img/31.jpg"/></a>
+</div>
+<div class="nav_list">
+	<ul class="list">
+		
+		<li  ng-repeat="item in navimg">
+			<a href="#"><img src="{{item.imgurl}}"/></a>
+		</li>
+	
+	</ul>
+</div>
+</div>
+		<div class="datalist2"></div>
+		<!--美妆-->
+		<div class="meizhuang"><img src="img/38.jpg" /></div>
+		<!--商品图片列表（价格 信息）-->
+		<div class="datalist3"></div>

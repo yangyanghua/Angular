@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*home视图样式*/
+/*轮播图样式*/
+.swiper-container { width: 100%; }
+
+.swiper-container .swiper-wrapper .swiper-slide a img { width: 100vw; }
+
+.jinxuan { width: 100vw; }
+
+.jinxuan a img { display: block; width: 100vw; }
+
+.img_nav { width: 100%; }
+
+.img_nav .main_img { width: 100%; }
+
+.img_nav .main_img a img { width: 100vw; }
+
+.img_nav .list { margin-top: 1vh; width: 100%; }
+
+.img_nav .list li { width: 47.5vw; margin: 1vw; float: left; }
+
+.img_nav .list li a img { width: 100%; }
+
+.list > li:nth-child(odd) { float: left; }
+
+.list > li:nth-child(even) { float: right; }
+
+.datalist2 { width: 100%; }
+
+.datalist2 ul li img { width: 100vw; }
+
+.meizhuang { margin-top: 1vh; width: 100%; }
+
+.meizhuang img { width: 100vw; }
+
+.datalist3 ul li { margin-top: 1vh; }
+
+.datalist3 ul li a img { width: 100vw; }
+
+.datalist3 ul li .title { margin-left: 2vw; color: grayg; }
+
+.datalist3 ul li .price { margin-left: 2vw; color: red; }

@@ -1,0 +1,93 @@
+/*home视图样式*/
+/*轮播图样式*/
+.swiper-container{
+    width: 100%;
+       .swiper-wrapper{
+           .swiper-slide{
+               a{
+                   img{                      
+                       width: 100vw;
+                   }
+               }
+           }
+       }
+}
+
+ .jinxuan{
+        width:100vw ;
+            a{
+                img{
+                    display: block;
+                    width: 100vw;
+                }
+            }
+}
+.img_nav{
+    width: 100%;
+        .main_img{
+            width: 100%;
+            a{
+                img{
+                width: 100vw;            
+                }                
+            }
+        }
+        
+        .list{
+            margin-top: 1vh;
+            width: 100%;
+            li{
+                width: 47.5vw;
+                margin: 1vw;
+                float: left;
+                a{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+}
+.list>li:nth-child(odd){
+    float: left;
+} 
+.list>li:nth-child(even){
+    float: right;
+}
+.datalist2{
+    width: 100%;
+    ul{
+        li{
+            img{
+                width: 100vw;
+            }
+        }
+    }
+}
+.meizhuang{
+    margin-top: 1vh;
+    width: 100%;
+    img{
+        width: 100vw;
+    }
+}
+.datalist3{
+    ul{
+        li{
+            margin-top: 1vh;
+            a{
+                img{
+                    width: 100vw;
+                }
+            }
+            .title{
+                margin-left: 2vw;
+                color:grayg;
+            }             
+            .price{
+                margin-left: 2vw;
+                color: red;
+            }             
+        }
+    }
+}
